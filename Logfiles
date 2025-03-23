@@ -1,1 +1,23 @@
+Mit folgendem Befehl:
 
+docker logs -f webserver
+
+konnte man sich die aktuellen Logs der Webseite anschauen.
+
+docker logs -f webserver
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 19 14:35:57.230901 2025] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.63 (Unix) configured -- resuming normal operations
+[Wed Mar 19 14:35:57.246517 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+172.17.0.1 - - [19/Mar/2025:14:38:17 +0000] "GET / HTTP/1.1" 200 429
+172.17.0.1 - - [19/Mar/2025:14:45:23 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:47:42 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:39 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:39 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:39 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:40 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:40 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:40 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:40 +0000] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [19/Mar/2025:14:49:41 +0000] "GET / HTTP/1.1" 304 -
+[Wed Mar 19 15:12:02.960129 2025] [mpm_event:notice] [pid 1:tid 1] AH00492: caught SIGWINCH, shutting down gracefully
