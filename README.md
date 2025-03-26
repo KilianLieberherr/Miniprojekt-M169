@@ -2,4 +2,8 @@
 
 🚀 Willkommen beim **Mini-Projekt**! 🎉
 
-# Inhaltsverzeichnis
+**Inhaltsverzeichnis**
+[Dockerfile](Dockerfile)
+[Logfiles](Logfiles)
+[index.html](index.html)
+[Vorgehen-Projekt](Vorgehen-Projekt.md)
