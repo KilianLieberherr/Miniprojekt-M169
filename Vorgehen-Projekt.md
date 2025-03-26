@@ -12,4 +12,4 @@ Das gleiche wurde mit dem Dockerfile gemacht: **"nano Dockerfile"**, Text einfü
 
 **5.** Zum Schluss kann man im Browser der VM testen ob man auf die Webseite gelangt: **http://localhost:8080/**
 
-**6.** Wenn mann erfolgreich auf die Webseite gelangen konnte, wäre es nun möglich die Logs anzuschauen. [Mehr dazu bei Logfiles.](Logfiles.md)
+**6.** Wenn mann erfolgreich auf die Webseite gelangen konnte, wäre es nun möglich die Logs anzuschauen. [Mehr dazu bei Logfiles.](Logfiles)
