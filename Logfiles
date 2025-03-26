@@ -1,6 +1,6 @@
 Mit folgendem Befehl:
 
-docker logs -f webserver
+**docker logs -f webserver**
 
 konnte man sich die aktuellen Logs der Webseite anschauen.
 
