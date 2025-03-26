@@ -1,11 +1,9 @@
-Als erstes wurde die VM ("LF-2.25" Firewall) und ("LP-22.04_LTS" Linux-Ubuntu) geöffnet.
+1. Im Terminal von Ubuntu muss ein neues Verzeichnis erstellt werden und man soll auch gleich in dieses wechseln:
+**"mkdir mini-projekt"**
+**"cd mini-projekt"**
 
-Danach habe ich im Terminal von Ubuntu ein neues Verzeichnis erstellt und bin in dieses gewechselt:
-"mkdir mini-projekt"
-"cd mini-projekt"
-
-Im Terminal wurde danach die Datei "index.html" mit dem Befehl "nano index.html" erstellt. Da drin wurde dann der Text der index.html Datei hinzugefügt und gespeichert.
-Das gleiche wurde mit dem Dockerfile gemacht: "nano Dockerfile", Text einfügen und speichern.
+2. Im Terminal muss danach die Datei **"index.html"** mit dem Befehl **"nano index.html"** erstellt. Da drin wurde dann der Text der **index.html** Datei hinzugefügt und gespeichert.
+Das gleiche wurde mit dem Dockerfile gemacht: **"nano Dockerfile"**, Text einfügen und speichern.
 
 Das Docker-Image muss dann gebaut werden und noch im gleichen Befehl kann man den Container starten: "docker build -t mein-apache .
 docker run -d -p 8080:80 --name webserver -v $(pwd)/logs:/usr/local/apache2/logs mein-apache"
