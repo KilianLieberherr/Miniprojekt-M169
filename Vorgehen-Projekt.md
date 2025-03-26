@@ -9,7 +9,7 @@ Das gleiche wurde mit dem Dockerfile gemacht: **"nano Dockerfile"**, Text einfü
 **docker run -d -p 8080:80 --name webserver -v $(pwd)/logs:/usr/local/apache2/logs mein-apache"**
 
 **4.** Danach kann man im Portainer schauen ob die Container **"mein-container"** & **"webserver"** erstellt worden sind und funktionieren.
-![Container](C:\Users\kilian.lieberherr\Downloads)
+![Container](C:\Users\kilian.lieberherr\Downloads\Container.png)
 
 Zum Schluss kann man im Browser der VM testen ob man auf die Webseite gelangt: http://localhost:8080/
 
